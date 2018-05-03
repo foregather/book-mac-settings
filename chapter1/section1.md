@@ -61,7 +61,7 @@ gitbook build
 gitbook serve
 ```
   - 方式二
-build 后会生成_book
+gitbook build 后会生成[_book](#jump)
 ```sh
 cd _book
 python -m SimpleHTTPServer 4000
