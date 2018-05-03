@@ -1,4 +1,4 @@
-1. node.js
+1. node.js和npm
 2. gitbook
   - 安装
 ```sh
@@ -10,9 +10,8 @@ gitbook -V
 ```
 3. 创建目录结构
 ```sh
-mkdir book1
-mkdir book2
-cd book1
+mkdir book
+cd book
 touch README.md
 touch SUMMARY.md
 vi SUMMARY.md
@@ -67,5 +66,12 @@ build 后会生成_book
 cd _book
 python -m SimpleHTTPServer 4000
 ```
-4. 预览
+7. 预览
 http://localhost:4000
+
+8. 创建github账号，将book同步到github
+9. 创建gitbook账号，新建Organizations，新建Space，创建完把该space和github链接起来，以后写完提交到github后自动同步到gitbook，设置如下图：
+
+![](https://ws3.sinaimg.cn/large/006tNc79ly1fqy78mvae8j318s0mm415.jpg)
+
+![](https://ws1.sinaimg.cn/large/006tNc79ly1fqy79hi9emj31gs0dojsw.jpg)
